@@ -1,36 +1,29 @@
-apply plugin: 'com.android.application'
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-android {
-    compileSdkVersion 26
-    buildToolsVersion "25.0.2"
-    defaultConfig {
-        applicationId "smirnygatotoshka.ru.simplechemistry"
-        minSdkVersion 14
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+buildscript {
+    repositories {
+        jcenter()
+        google()
+
     }
-    aaptOptions
-            {
-                cruncherEnabled = false
-            }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url 'https://maven.google.com'
         }
     }
 }
 
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-
-    implementation 'com.yandex.android:mobmetricalib:2.73:jar'
-    implementation 'com.android.support:design:26.0.1'
-    implementation 'com.android.support:appcompat-v7:26.0.1'
-    testImplementation 'junit:junit:4.13'
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
