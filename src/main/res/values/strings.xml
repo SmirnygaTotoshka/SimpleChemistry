@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ae_name">Название</string>
+    <string name="ae_serial_number">Порядковый номер</string>
+    <string name="ae_symbol">Символ</string>
+    <string name="ae_atomic_weight">Атомная масса</string>
+    <string name="ae_weight_radio">Элемент радиоактивен.Это массовое число наиболее стабильного изотопа.</string>
+    <string name="ae_ptce">Положение В ПТХЭ</string>
+    <string name="ae_group">группа</string>
+    <string name="ae_period">период</string>
+    <string name="ae_main_subg">главная подгруппа</string>
+    <string name="ae_adverse_subg">побочная подгруппа</string>
+    <string name="ae_class_element">Класс элемента</string>
+    <string name="ae_alkaline">Щелочной металл</string>
+    <string name="ae_alk_earth">Щелочноземельный металл</string>
+    <string name="ae_me">Металл</string>
+    <string name="ae_am_me">Амфотерный металл</string>
+    <string name="ae_la">Лантаноид</string>
+    <string name="ae_ac">Актиноид</string>
+    <string name="ae_nme">Неметлл</string>
+    <string name="ae_hal">Халькоген</string>
+    <string name="ae_gal">Галоген</string>
+    <string name="ae_inert">Инертный(благородный) газ</string>
+    <string name="ae_phasa">Агрегатное состояние</string>
+    <string name="ae_gas">Газ</string>
+    <string name="ae_liq">Жидкость</string>
+    <string name="ae_solid">Твёрдое вещество</string>
+    <string name="ae_ing">Неизвестно</string>
+    <string name="ae_proton">Количество протонов</string>
+    <string name="ae_neitron">Количество нейтронов</string>
+    <string name="ae_electron">Количество электронов</string>
+    <string name="ae_max">Максимальная степень окисления</string>
+    <string name="ae_min">Минимальная степень окисления</string>
+    <string name="ae_plav">Температура плавления</string>
+    <string name="ae_kip">Температура кипения</string>
+    <string name="ae_sublim">Сублимация(возгонка)</string>
+    <string name="ai_title1">Говорится ли в задаче о химической реакции?</string>
+    <string name="ai_button1_Yes">Да.</string>
+    <string name="ai_button1_No">Нет.</string>
+    <string name="ai_title3">Какие величины нам даны?Заполните только нужные поля!</string>
+    <string name="Ok">Готово.</string>
+    <string name="ai_button3_Converter">Конвертер.</string>
+    <string name="ai_title4">У какого реагента даны эти величины?</string>
+    <string name="ai_title5">Что нужно нам найти?</string>
+    <string name="ai_title6">Какому реагенту принадлежит неизвестная величина?</string>
+    <string name="c_title">Выберите конвертируемую величину</string>
+    <string name="du_result">Результат.</string>
+    <string name="du_left_side">Введите левую часть уравнения.</string>
+    <string name="du_right_side">Введите правую часть уравнения.</string>
+    <string name="du_equalize">Уравнять.</string>
+    <string name="ce_title">Ошибка!</string>
+    <string name="ce_invalid_symbol">Присутствует запрещённый символ.Вы можете использовать только [A-Z],[a-z],[0-9],+,[,],(,)</string>
+    <string name="ce_not_couple_bracket">Некорректная формула.Какая-то скобка не закрыта.</string>
+    <string name="ce_not_found_element">Элемент не существует.</string>
+    <string name="ce_not_equal_list_by_two_side">Вы используете с одной стороны элемент,который не задействован в другой.</string>
+    <string name="ce_incorrect_balance">Уравнение не удалось сбалансировать.</string>
+    <string name="ce_zero_solution">Один из реагентов имеет нулевой коэффициент.Это недопустимо.</string>
+    <string name="ce_cant_find_solution_problem">Невозможно решить задачу.Проверьте правильность заполнения данных.</string>
+    <string name="ce_invalid_format">Неверный формат ввода.</string>
+    <string name="ce_have_not_in_base">Вещество не найдено в базе данных.Если вам что-то известно о его растворимости,сообщите мне</string>
+    <string name="ce_good">Хорошо</string>
+    <string name="app_name">Простая химия.</string>
+    <string name="app_motto">Химия - это просто!</string>
+    <string name="du">Уравнять реакцию.</string>
+    <string name="dp">Решить задачу.</string>
+    <string name="pt">Таблица Менделеева.</string>
+    <string name="tr">Таблица растворимости.</string>
+    <string name="mc">Молярный калькулятор.</string>
+    <string name="c">Конвертер.</string>
+    <string name="s">Шпоры.</string>
+    <string name="h">Помощь.</string>
+    <string name="c_error">Конвертируемое величина слишком большая!</string>
+    <string name="contacts">Контакты.</string>
+    <string name="mc_title">Введите формулу для подсчёта молярной массы вещества.</string>
+    <string name="mc_button">Сосчитать.</string>
+    <string name="mc_value">г/моль.</string>
+    <string name="sha_1">Решение уравнений</string>
+    <string name="sha_2">Решение задач</string>
+    <string name="sha_3">Конвертер</string>
+    <string name="sha_4">Молярный калькулятор и Таблица растворимости</string>
+    <string name="dp_dano">Дано:</string>
+    <string name="dp_find">Найти:</string>
+    <string name="dp_m_1">m(вещества) = М * n</string>
+    <string name="dp_m_2">m(вещества) = m(смеси) / 100 * w</string>
+    <string name="dp_v_1">V(вещества) = 22.4 * n</string>
+    <string name="dp_v_2">V(вещества) = V(смеси) / 100 * w</string>
+    <string name="dp_n_1">n = M * n</string>
+    <string name="dp_n_2">n = 22.4 * n</string>
+    <string name="dp_n_3">n = 6*10(23) * n</string>
+    <string name="dp_N_1"> N = 6*10(23) * n</string>
+    <string name="dp_wm_1"> w = m(вещества) / m(смеси) * 100</string>
+    <string name="dp_wv_1"> V = V(вещества) / V(смеси) * 100</string>
+    <string name="dp_w_1">w = 100 - примеси(%)</string>
+    <string name="dp_mmix_1">m(смеси) = p(плотность смеси) * V</string>
+    <string name="dp_mmix_2">m(смеси) = m(вещества) / w * 100</string>
+    <string name="dp_p_1">p(плотность смеси) = m(смеси) / V(смеси) </string>
+    <string name="dp_vmix_1"> V = m(смеси) / p(плотность смеси)</string>
+    <string name="dp_vmix_2">V(смеси) = V(вещества) / w * 100</string>
+    <string name="dp_answer">Ответ = </string>
+    <string name="eula"> Собственность SmirnygaTotoshka.Копирайтинг и несанкционированное распространение запрещено.Пользуйтесь на здоровье.Hе забывайте следить за обновлениями!</string>
+    <string name="formuls_keyboard">Formula Keyboard</string>
+    <string name="decimal_keyboard">Decimal Keyboard</string>
+    <string name="subtype_elements_1_22">1-22</string>
+    <string name="subtype_elements_23_44">23-44</string>
+    <string name="subtype_elements_45_66">45-66</string>
+    <string name="subtype_elements_67_88">67-88</string>
+    <string name="subtype_elements_89_110">89-110</string>
+    <string name="subtype_decimal">Цифры</string>
+    <string name="ai_formula_reagent">Формула вещества</string>
+    <string name="el_liquid">Жидкость</string>
+    <string name="el_solid">Твёрдое вещество</string>
+    <string name="el_gas">Газ</string>
+    <string name="long_table">Длиннопериодная таблица</string>
+    <string name="short_table">Короткопериодная таблица</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="delete_ad">Удалить рекламу</string>
+    <string name="main_decide_equalation">Решить уравнение.</string>
+    <string name="main_decide_task">Решить задачу.</string>
+    <string name="main_period_tab">Таблица Менделеева.</string>
+    <string name="main_solubility_tab">Таблица растворимости</string>
+    <string name="main_converter">Конвертер</string>
+    <string name="main_molar_calculator">Молярный калькулятор</string>
+    <string name="main_shpora">Шпоры.</string>
+    <string name="main_help">Помощь.</string>
+    <string name="main_contacts">Контакты.</string>
+    <string name="keyboard_1_55">1-55</string>
+    <string name="keyboard_56_110">56-110</string>
+    <string name="keyboard_numbers">123</string>
+    <string name="tr_title">Введите формулу вещества,чтобы узнать о его растворимости в воде</string>
+    <string name="tr_button">Запросить</string>
+<string name="next">Далее</string>
+</resources>

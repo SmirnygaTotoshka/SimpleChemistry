@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_tab_decide_equalation">Расчётное уравнение.</string>
+    <string name="text_tab_ask_information">Дано</string>
+    <string name="text_tab_ask_searching">Найти</string>
+    <string name="text_tab_result">Решение</string>
+    <string name="list_searching">Что и у кого нужно найти?</string>
+    <string name="list_known">Что и у кого известно?</string>
+    <string-array name="standart_types">
+        <item >г</item>
+        <item >л</item>
+        <item >моль</item>
+    </string-array>
+    <string name="what_search">Что ищем?</string>
+    <string name="goto_decide">Решить</string>
+    <string name="kg">кг</string>
+    <string name="g">г</string>
+    <string name="mg">мг</string>
+    <string name="m3">м3</string>
+    <string name="l">л</string>
+    <string name="ml">мл</string>
+    <string name="kmol">кмоль</string>
+    <string name="mol">моль</string>
+    <string name="mmol">ммоль</string>
+    <string name="in_less">В недостатке</string>
+    <string name="answer">Ответ:</string>
+
+</resources>

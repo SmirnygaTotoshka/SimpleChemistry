@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:id="@+id/main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fon"
+        android:padding="5dp"
+        android:scrollbars="horizontal">
+
+        <TextView
+            android:id="@+id/motto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_motto"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ffcccccc"
+            />
+
+        <Button
+            android:id="@+id/decide_urav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/motto"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/decide_equal_icon"
+            android:paddingTop="5dp"
+            android:text="@string/main_decide_equalation"
+            android:textColor="#ffcccccc"
+            android:textSize="18sp"/>
+
+
+        <Button
+            android:id="@+id/period_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/decide_urav"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/decide_urav"
+            android:layout_below="@+id/decide_urav"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/period_tab_icon"
+            android:padding="5dp"
+            android:text="@string/main_period_tab"
+            android:textColor="#ffcccccc"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/solubility_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/solubility_icon"
+            android:padding="5dp"
+            android:text="@string/main_solubility_tab"
+            android:textColor="#ffcccccc"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/decide_urav"
+            android:layout_alignBottom="@+id/decide_urav"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <Button
+            android:id="@+id/molar_calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/solubility_tab"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/solubility_tab"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/molar_calculator_icon"
+            android:padding="5dp"
+            android:text="@string/main_molar_calculator"
+            android:textColor="#ffcccccc"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/period_tab"/>
+
+    </RelativeLayout>
+</ScrollView>

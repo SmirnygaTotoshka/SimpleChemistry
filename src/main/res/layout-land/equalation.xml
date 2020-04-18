@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+android:background="@drawable/fon" 
+android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:id="@+id/decide_urav"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <Button
+        android:id="@+id/equal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border"
+        android:text="@string/equalize"
+        android:textColor="#ffcccccc"/>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/equaltion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/hint_write_equal"
+        android:inputType="text"
+        android:background="@drawable/border"
+        android:textColor="#ffcccccc"
+        android:textColorHint="#ffcccccc"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/equaltion"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffcccccc"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/keyboardview"
+        android:layout_toEndOf="@+id/keyboardview"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smirnygatotoshka.ru.simplechemistry"
+	android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserLabel="@drawable/app_icon" 
+    android:installLocation="auto">
+    
+
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:logo="@drawable/app_icon"
+        android:name=".SimpleChemistry"
+        android:largeHeap="true"
+         android:theme="@style/AppTheme">
+
+    <meta-data android:name="com.google.android.gms.version"
+    android:value="@integer/google_play_services_version" />   
+<service
+            android:name="com.yandex.metrica.MetricaService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":Metrica">
+
+                <intent-filter>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                    <action android:name="com.yandex.metrica.IMetricaService"/>
+                    <data android:scheme="metrica"/>
+                </intent-filter>
+
+                <meta-data android:name="metrica:api:level" android:value="58"/>
+        </service>
+
+
+        <receiver
+            android:name="com.yandex.metrica.MetricaEventHandler"
+            android:enabled="true"
+            android:exported="true">
+
+            <!-- INSTALL_REFERRER необходим для трекинга кампаний -->
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <!-- end of Yandex Metrica -->  
+
+
+        
+        <activity android:name="smirnygatotoshka.ru.simplechemistry.MainActivity" >
+        
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        
+        </intent-filter>
+        </activity>
+
+
+        <activity android:name="smirnygatotoshka.ru.simplechemistry.DecideEqualationActivity" android:windowSoftInputMode="adjustPan"></activity>
+        <activity android:name="smirnygatotoshka.ru.simplechemistry.MolarCalculatorActivity" android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name="smirnygatotoshka.ru.simplechemistry.PeriodTabActivity" ></activity>
+        <activity android:name="smirnygatotoshka.ru.simplechemistry.AboutElementActivity" ></activity>
+        <activity android:name="smirnygatotoshka.ru.simplechemistry.SolubilityTabActivity" android:windowSoftInputMode="adjustPan"></activity>
+        <activity android:name="smirnygatotoshka.ru.simplechemistry.ContactsActivity"></activity>
+
+        
+    </application>
+
+</manifest>

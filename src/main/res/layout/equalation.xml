@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fon"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <Button
+        android:id="@+id/equal"
+        style="@style/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/keyboardview"
+        android:layout_marginBottom="30dp"
+        android:text="@string/equalize"/>
+
+
+    <EditText
+        android:id="@+id/equaltion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:hint="@string/hint_write_equal"
+        android:paddingTop="20dp"
+        android:textColor="#ffcccccc"
+        android:textColorHint="#ffcccccc"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/equaltion"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffcccccc"
+        android:textSize="15dp" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"/>
+	
+</RelativeLayout>

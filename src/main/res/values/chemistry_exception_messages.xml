@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invalid_number">Несуществующий номер элемента.</string>
+    <string name="not_found_element">Элемент(формула) не найден(-а) в базе.</string>
+    <string name="empty_data">Пустая база.</string>
+    <string name="incorrect_formula">Некорректная формула.Нет ни одного химического элемента</string>
+    <string name="not_found_parts">Некорректное уравнение,нет левой и правой части.</string>
+    <string name="brackets_not_closed">Некорректная формула.Закрыты не все скобки.</string>
+    <string name="not_equal_list_element">Некорректное уравнение. Элемент(-ы) слева не соответствуют элементам справа.Проверьте уравнение.</string>
+    <string name="incorrect_balance">Некорректный баланс. Проверьте уравнение и попробуйте ещё раз.</string>
+    <string name="not_close_condition_task">Незаконченное учсловие задачи.</string>
+    <string name="convert_error">Ошибка при конвертации величин. Проверьте на соответствие величины с необходимостью перевода.</string>
+</resources>

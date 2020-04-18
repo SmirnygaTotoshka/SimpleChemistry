@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon">
+
+    <RelativeLayout
+        android:id="@+id/main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fon">
+
+        <TextView
+            android:id="@+id/motto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_motto"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ffcccccc"
+            />
+
+        <Button
+            android:id="@+id/decide_urav"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/motto"
+            android:drawableLeft="@drawable/decide_equal_icon"
+            android:text="@string/main_decide_equalation"
+            style="@style/buttons"/>
+
+
+        <Button
+            android:id="@+id/period_tab"
+            style="@style/buttons"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/decide_urav"
+            android:drawableLeft="@drawable/period_tab_icon"
+            android:text="@string/main_period_tab"/>
+
+        <Button
+            android:id="@+id/solubility_tab"
+            style="@style/buttons"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/period_tab"
+            android:drawableLeft="@drawable/solubility_icon"
+            android:text="@string/main_solubility_tab"/>
+
+        <Button
+            android:id="@+id/molar_calculator"
+            style="@style/buttons"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/solubility_tab"
+            android:drawableLeft="@drawable/molar_calculator_icon"
+            android:text="@string/main_molar_calculator"/>
+
+    </RelativeLayout>
+</ScrollView>
